@@ -42,7 +42,7 @@ version = { attr = "pykagi_ken.__version__" }
 
 
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
 include = ["pykagi_ken*"]
 
 
